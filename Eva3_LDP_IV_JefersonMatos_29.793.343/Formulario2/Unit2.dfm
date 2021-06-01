@@ -1,0 +1,206 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Datos personales'
+  ClientHeight = 479
+  ClientWidth = 447
+  Color = clMoneyGreen
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object L_Titulo2: TLabel
+    Left = 72
+    Top = 24
+    Width = 304
+    Height = 41
+    Caption = 'Datos personales'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -35
+    Font.Name = 'Consolas'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object L_Nombres2: TLabel
+    Left = 16
+    Top = 133
+    Width = 63
+    Height = 19
+    Caption = 'Nombres'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Consolas'
+    Font.Style = []
+    ParentFont = False
+  end
+  object L_Fecha2: TLabel
+    Left = 16
+    Top = 227
+    Width = 171
+    Height = 19
+    Caption = 'Fecha de nacimiento'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Consolas'
+    Font.Style = []
+    ParentFont = False
+  end
+  object L_Sexo2: TLabel
+    Left = 76
+    Top = 285
+    Width = 36
+    Height = 19
+    Caption = 'Sexo'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Consolas'
+    Font.Style = []
+    ParentFont = False
+  end
+  object L_Civil2: TLabel
+    Left = 250
+    Top = 285
+    Width = 45
+    Height = 19
+    Caption = 'Civil'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Consolas'
+    Font.Style = []
+    ParentFont = False
+  end
+  object L_Apellidos2: TLabel
+    Left = 16
+    Top = 181
+    Width = 81
+    Height = 19
+    Caption = 'Apellidos'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Consolas'
+    Font.Style = []
+    ParentFont = False
+  end
+  object L_Telf2: TLabel
+    Left = 16
+    Top = 359
+    Width = 72
+    Height = 19
+    Caption = 'Telefono'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Consolas'
+    Font.Style = []
+    ParentFont = False
+  end
+  object T_Nombres2: TEdit
+    Left = 104
+    Top = 119
+    Width = 321
+    Height = 27
+    Color = clGradientInactiveCaption
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Consolas'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+  end
+  object T_Apellidos2: TEdit
+    Left = 103
+    Top = 167
+    Width = 321
+    Height = 27
+    Color = clGradientInactiveCaption
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Consolas'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+  end
+  object T_Civil2: TEdit
+    Left = 301
+    Top = 274
+    Width = 121
+    Height = 27
+    Color = clGradientInactiveCaption
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Consolas'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+  end
+  object T_Fecha2: TEdit
+    Left = 208
+    Top = 216
+    Width = 217
+    Height = 27
+    Color = clGradientInactiveCaption
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Consolas'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 3
+  end
+  object T_Sexo2: TEdit
+    Left = 118
+    Top = 274
+    Width = 126
+    Height = 27
+    Color = clGradientInactiveCaption
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Consolas'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 4
+  end
+  object T_Telf2: TEdit
+    Left = 104
+    Top = 351
+    Width = 321
+    Height = 27
+    Color = clGradientInactiveCaption
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Consolas'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 5
+  end
+  object B_Form1: TButton
+    Left = 72
+    Top = 416
+    Width = 314
+    Height = 41
+    Caption = 'Regresar al formulario principal'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Consolas'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 6
+    OnClick = B_Form1Click
+  end
+end
